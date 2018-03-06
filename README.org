@@ -1,0 +1,14 @@
+# 要求Emacs版本>=25.1.1
+
+[[http://www.fuzihao.org/blog/2015/02/19/org-mode%E6%95%99%E7%A8%8B/][org-mode参考手册]]
+[[http://orgmode.org/orgguide.pdf][org-mode官方手册]]
+
+| Plugin Name      | Version | Description                      |
+|------------------+---------+----------------------------------|
+| bbdb             |   3.1.2 | address book                     |
+| window-numbering |   1.0.0 | jump between windows with number |
+| uncrustify       |   1.0.0 | beautify source code             |
+
+# 额外的配置
+1 cp .authinfo ~/
+2 将坚果云下的nutstore目录同步到家目录下(~)

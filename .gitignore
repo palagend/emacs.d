@@ -1,0 +1,12 @@
+*~
+\#*
+eshell/
+auto-save-list/
+*.elc
+network-security.data
+auto-save-list/
+elpa
+url/
+*.dat
+server/
+ido.last
