@@ -28,8 +28,19 @@
 (global-undo-tree-mode)
 
 ;; 添加全局补全支持
-;(autopair-global-mode)
+(autopair-global-mode)
 (global-auto-complete-mode 1)
 
 ;;指定编码为utf-8
 (prefer-coding-system 'utf-8)
+
+;; 启动全屏的快捷键
+(global-set-key (kbd "M-<return>") 'pal-fullscreen)
+;;全屏
+(defun pal-fullscreen ()
+(interactive)
+(x-send-client-message
+nil 0 nil "_NET_WM_STATE" 32
+'(2 "_NET_WM_STATE_FULLSCREEN" 0))
+)
+;(run-with-idle-timer 1 nil 'pal-fullscreen) 
