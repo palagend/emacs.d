@@ -21,7 +21,7 @@
      ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/"))))
  '(package-selected-packages
    (quote
-    (flycheck py-autopep8 better-defaults elpy markdown-mode ac-etags autopair project-explorer magit helm material-theme undo-tree auctex))))
+    (multi-term myterminal-controls flycheck py-autopep8 better-defaults elpy markdown-mode ac-etags autopair project-explorer magit helm material-theme undo-tree auctex))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

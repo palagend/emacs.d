@@ -9,3 +9,5 @@
 (global-set-key (kbd "C-c p f") 'project-explorer-helm)
 (global-set-key (kbd "C-c p p") 'project-explorer-toggle)
 
+;; Plugin multi terminal
+(global-set-key (kbd "C-M-;") 'multi-term)
