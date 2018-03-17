@@ -19,8 +19,8 @@
 ;;没有这个 { } 就会瞎搞
 (setq c-default-style "linux")
 (setq default-tab-width 4)
-(setq server-auth-dir "/d/")
-(setq server-name "emacs-server-file")
+;(setq server-auth-dir "~/.emacs.d/server")
+(setq server-name "scorpio")
 (server-start)
 
 ;;添加undo-tree支持
@@ -38,9 +38,8 @@
 (global-set-key (kbd "M-<return>") 'pal-fullscreen)
 ;;全屏
 (defun pal-fullscreen ()
-(interactive)
-(x-send-client-message
-nil 0 nil "_NET_WM_STATE" 32
-'(2 "_NET_WM_STATE_FULLSCREEN" 0))
-)
+    (interactive)
+    (x-send-client-message
+        nil 0 nil "_NET_WM_STATE" 32
+        '(2 "_NET_WM_STATE_FULLSCREEN" 0)))
 ;(run-with-idle-timer 1 nil 'pal-fullscreen) 
