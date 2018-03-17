@@ -14,6 +14,9 @@
        (setq TeX-command-default "XeLaTeX")
        (setq TeX-save-query  nil )
        (setq TeX-show-compilation t)))
+(add-hook 'c-mode-common-hook
+	  '(lambda ()
+	    (require 'xcscope)))
 
 ;;;;;;;;将第三方插件路径加入emacs搜索路径中;;;;;;;;
 (add-to-list 'load-path "~/.emacs.d/plugins")
