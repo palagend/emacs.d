@@ -18,10 +18,11 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.emacs-china.org/gnu/")
-     ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/"))))
+     ("melpa-stable" . "http://elpa.emacs-china.org/melpa-stable/")
+     ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
  '(package-selected-packages
    (quote
-    (multi-term myterminal-controls flycheck py-autopep8 better-defaults elpy markdown-mode ac-etags autopair project-explorer magit helm material-theme undo-tree auctex))))
+    (cquery multi-term myterminal-controls flycheck py-autopep8 better-defaults elpy markdown-mode ac-etags autopair project-explorer magit helm material-theme undo-tree auctex))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
