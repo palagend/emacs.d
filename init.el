@@ -28,3 +28,5 @@
 (load-file "~/.emacs.d/lisp/keybindings.el")
 (load-file "~/.emacs.d/lisp/gnus.el")
 (load-file "~/.emacs.d/lisp/pal-bbdb.el")
+(setq cquery-executable "~/doc/demacia/cquery/build/release/bin/cquery")
+(add-hook 'c-mode-hook  (lsp-cquery-enable))
